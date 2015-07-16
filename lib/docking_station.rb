@@ -6,5 +6,9 @@ class DockingStation
     Bike.new
   end
 
+  def dock bike
+    fail 'No bikes available'
+  end
+
 
 end
