@@ -2,9 +2,9 @@
 
 ### **Ural** is a brand of Russian motorbikes and this is another boris bikes exercise
 
-* As a member of the public,
-  So that I can get across town,
-  I'd like to get a working bike from a docking station.
+As a member of the public,
+So that I can get across town,
+I'd like to get a working bike from a docking station.
 
 As a member of the public,
 So that I am not confused and charged unnecessarily,
