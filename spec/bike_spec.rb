@@ -8,4 +8,10 @@ describe Bike do
     expect(subject).to be_broken
   end
 
+  it 'cannot release bike when bike is broken' do
+    station = DockingStation.new
+    subject.report_broken
+    expect { station.release_bike }.to raise_error 'No bikes available'
+  end
+
 end
