@@ -3,4 +3,12 @@ class Bike
     true
   end
 
+  def report_broken
+
+  end
+
+  def broken?
+    true
+  end
+
 end
