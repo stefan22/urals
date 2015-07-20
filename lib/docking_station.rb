@@ -12,8 +12,13 @@ class DockingStation
   end
 
   def release_bike
-    fail 'No bikes available' if empty?
+    if empty?
+      fail 'No bikes available'
+    elsif  @bikes.all? {|bike| bike.working? == false }
+      fail 'No bikes available'
+    else  
     @bikes.pop
+    end
   end
 
   def dock bike
